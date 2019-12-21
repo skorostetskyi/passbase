@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
     }
 
     spec.dependency 'ZoomAuthenticationHybrid', '~> 7.0.18'
-
+    spec.dependency 'Bugsnag'
     spec.vendored_frameworks = 'Passbase.framework'
 
 end

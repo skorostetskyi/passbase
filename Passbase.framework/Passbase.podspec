@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
     spec.name           = 'Passbase'
-    spec.version        = '1.7.8'
+    spec.version        = '1.7.9'
     spec.summary        = 'Passbase helps you to uniquely identify your users.'
     spec.description    = 'Passbase completes a facial recognition and checks for a valid government identification document to uniquely identify people.'
     spec.homepage       = 'https://www.passbase.com'
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
     }
 
     spec.dependency 'ZoomAuthenticationHybrid', '~> 7.0.18'
-    spec.dependency 'Bugsnag'
+    spec.dependency 'Rollbar'
     spec.vendored_frameworks = 'Passbase.framework'
 
 end
